@@ -1,0 +1,22 @@
+{
+	"items" : [
+		{
+			"name" : "Item 1",
+			"cost" :  3.50,
+			"owner" : 0,
+			"stock" : 22
+		},
+		{
+			"name" : "Item 2",
+			"cost" :  3.50,
+			"owner" : 0,
+			"stock" : 22
+		},
+		{
+			"name" : "Item 3",
+			"cost" :  3.50,
+			"owner" : 0,
+			"stock" : 22
+		}
+	]
+}

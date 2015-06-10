@@ -1,0 +1,66 @@
+$color-page-background: #202020;
+$color-item-background: #b7c6b6;
+$color-item-text: #334231;
+$color-item-textshadow: #9ba89a;
+
+$white: #ffffff;
+$black: #000000;
+
+html,
+body,
+.container,
+.view {
+	width: 100%;
+	height: 100%;
+	font-family: FakeReceipt-Regular;
+	font-weight: normal;
+	font-style: normal;
+	background-color: $color-page-background;
+}
+
+.view {
+	padding: 25px;
+	height: 100%;
+	width: 100%;	
+}
+
+.all-items {
+	background-color: $color-item-background;
+	height: 100%;
+	margin-right: 305px;
+	font-family: VT323;
+	padding: 0 40px 80px;
+	color: $color-item-text;
+	text-shadow: 1px 1px 0px $color-item-textshadow;
+	position: relative;
+}
+
+.sidebar {
+	width: 300px;
+	height: 100%;
+	float: right;
+}
+
+.admin {
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	padding: 5px;
+}
+
+.modal {
+	position: absolute;
+	left: 0;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	width: 100%;
+	height: 100%;
+	background-color: rgba($black,0.3);
+	.content {
+		width: 50%;
+		margin: 5% auto 0;
+		padding: 15px;
+		background-color: $color-page-background;
+	}
+}

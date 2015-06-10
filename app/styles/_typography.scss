@@ -1,0 +1,38 @@
+/**
+ * @license
+ * MyFonts Webfont Build ID 3039530, 2015-06-09T17:09:38-0400
+ * 
+ * The fonts listed in this notice are subject to the End User License
+ * Agreement(s) entered into by the website owner. All other parties are 
+ * explicitly restricted from using the Licensed ../Webfonts(s).
+ * 
+ * You may obtain a valid license at the URLs below.
+ * 
+ * Webfont: FakeReceipt-Regular by Typodermic
+ * URL: http://www.myfonts.com/fonts/typodermic/fake-receipt/regular/
+ * Copyright: (c) 1999-2012 Typodermic Fonts Inc. See attached license agreement. If agreement is missing visit typodermicfonts.com for more info. This font is part of the Larabie Fonts collection from Typodermic Fonts.
+ * Licensed pageviews: 20,000
+ * 
+ * 
+ * License: http://www.myfonts.com/viewlicense?type=web&buildid=3039530
+ * 
+ * © 2015 MyFonts Inc
+*/
+
+@font-face {
+	font-family: 'FakeReceipt-Regular';
+	src: url('../webfonts/2E612A_0_0.eot');
+	src: url('../webfonts/2E612A_0_0.eot?#iefix') format('embedded-opentype'),url('../webfonts/2E612A_0_0.woff2') format('woff2'),url('../webfonts/2E612A_0_0.woff') format('woff'),url('../webfonts/2E612A_0_0.ttf') format('truetype');
+	font-weight: 400;
+	font-style: normal;
+}
+
+
+/* https://www.google.com/fonts/specimen/VT323 - latin */
+@font-face {
+  font-family: 'VT323';
+  font-style: normal;
+  font-weight: 400;
+  src: local('VT323'), local('VT323-Regular'), url(../webfonts/vt323.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
+}

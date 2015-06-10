@@ -1,0 +1,111 @@
+$black: #000000;
+
+$color-receipt-paper: #ececec;
+$color-receipt-text: #4d54e2;
+$color-receipt-textshadow: #8084cc;
+
+$color-receipt-text-neg: #e2b1b1;
+$color-receipt-textnegshadow: #7f6d6d;
+
+
+
+$color-bar-plastic: #454545;
+
+$color-button-text: #e0e0e0;
+$color-button-cash: #2dbc36;
+$color-button-card: #2b36bc;
+$color-button-shadow: #202020;
+
+$color-razor-shadow: #505050;
+
+.sidebar {
+
+	position: relative;
+
+
+	.bar {
+		position: absolute;
+		width: 100%;
+		height: 80px;
+		padding: 10px;
+		left: 0;
+		bottom: 0;
+		background-color: $color-bar-plastic;
+		text-align: center;
+		border: 3px dotted $color-button-text;
+		border-width: 3px 0 0;
+		box-shadow: 0px -2px 15px $color-razor-shadow;
+	}
+
+	.cash,
+	.card {
+		width: 125px;
+		height: 60px;
+		font-size: 1.75em;
+		color: $color-button-text;
+		text-shadow: 1px 1px 3px $color-button-shadow;
+		cursor: pointer;
+	}
+
+	.cash {
+		background-color: $color-button-cash;
+	}
+	.card {
+		background-color: $color-button-card;
+	}
+
+	.receipt {
+		margin: 0 5px 0 ;
+		padding: 50px 5px 20px 8px;
+		background-color: $color-receipt-paper;
+		color: $color-receipt-text;
+		text-shadow: 0px 0px 5px $color-receipt-textshadow;
+		position: absolute;
+		left: 3px;
+		bottom: 60px;
+
+		border: 3px dotted $color-page-background;
+		border-width: 2px 0 0;
+	}
+
+	.banner {
+		text-align: center;
+		margin-bottom: 2em;
+	}
+
+	.date {
+		text-align: center;
+		margin: 0.5em 0 0.4em;
+	}
+
+	.right {
+		float: right;
+		text-align: right;
+		margin-right: 7px;
+	}
+
+	.cart {
+		margin: 1.5em 0;
+	}
+
+	.cart-item {
+		font-size: 0.75em;
+		line-height: 2.1rem;
+	}
+
+	.remove-button {
+		font-size: 2rem;
+		cursor: pointer;
+		margin-right: 0;
+		color: $color-receipt-text-neg;
+		text-shadow: 0px 0px 5px $color-receipt-textnegshadow;
+	}
+
+	.total {
+		font-size: 1.5em;
+		margin-bottom: 2em;
+	}
+	.cost {
+		margin-right: 2.75em;
+	}
+}
