@@ -1,22 +1,44 @@
-{
-	"items" : [
-		{
-			"name" : "Item 1",
-			"cost" :  3.50,
-			"owner" : 0,
-			"stock" : 22
-		},
-		{
-			"name" : "Item 2",
-			"cost" :  3.50,
-			"owner" : 0,
-			"stock" : 22
-		},
-		{
-			"name" : "Item 3",
-			"cost" :  3.50,
-			"owner" : 0,
-			"stock" : 22
-		}
-	]
-}
+{ "items" : [
+	{ "name" : "CE-01-17 Jessica Bicorn", "cost" : 12, "owner" : 0, "stock" : 12 },
+	{ "name" : "CE-02-14 Landscape", "cost" : 12, "owner" : 0, "stock" : 11 },
+	{ "name" : "CE-02-17 Landscape", "cost" : 12, "owner" : 0, "stock" : 4 },
+	{ "name" : "CE-03-14 Misa Moon", "cost" : 12, "owner" : 0, "stock" : 27 },
+	{ "name" : "CE-04-14 Jessica Sitting", "cost" : 12, "owner" : 0, "stock" : 23 },
+	{ "name" : "KN-01-14 Blue", "cost" : 12, "owner" : 0, "stock" : 1 },
+	{ "name" : "KN-02-14 Green", "cost" : 12, "owner" : 0, "stock" : 10 },
+	{ "name" : "KN-03-14 Purple", "cost" : 12, "owner" : 0, "stock" : 13 },
+	{ "name" : "DR-01-14 Blue + Green", "cost" : 12, "owner" : 0, "stock" : 14 },
+	{ "name" : "DR-02-14 Red + Blue", "cost" : 12, "owner" : 0, "stock" : 14 },
+	{ "name" : "DR-03-14 Blue Clock", "cost" : 12, "owner" : 0, "stock" : 14 },
+	{ "name" : "DR-04-14 Red Clock", "cost" : 12, "owner" : 0, "stock" : 9 },
+	{ "name" : "MP-01-17 Rainbow Dash", "cost" : 12, "owner" : 0, "stock" : 7 },
+	{ "name" : "MP-02-14 Pinkie Pie", "cost" : 12, "owner" : 0, "stock" : 7 },
+	{ "name" : "MP-03-14 Twilight Sparkle", "cost" : 12, "owner" : 0, "stock" : 17 },
+	{ "name" : "MP-04-14 Applejack", "cost" : 12, "owner" : 0, "stock" : 2 },
+	{ "name" : "MP-05-14 Princess Celestia", "cost" : 12, "owner" : 0, "stock" : 16 },
+	{ "name" : "MP-06-14 Princess Luna", "cost" : 12, "owner" : 0, "stock" : 23 },
+	{ "name" : "MP-07-14 Rarity", "cost" : 12, "owner" : 0, "stock" : 14 },
+	{ "name" : "SE-01-14 Winter", "cost" : 12, "owner" : 0, "stock" : 7 },
+	{ "name" : "SE-02-14 Spring", "cost" : 12, "owner" : 0, "stock" : 10 },
+	{ "name" : "SE-03-14 Summer", "cost" : 12, "owner" : 0, "stock" : 8 },
+	{ "name" : "SE-04-14 Autumn", "cost" : 12, "owner" : 0, "stock" : 9 },
+	{ "name" : "HO-01-14 Starbrite", "cost" : 12, "owner" : 0, "stock" : 10 },
+	{ "name" : "SD-01-10 Scissorhands", "cost" : 6, "owner" : 1, "stock" : 25 },
+	{ "name" : "SD-02-10 Hermione", "cost" : 6, "owner" : 1, "stock" : 25 },
+	{ "name" : "SD-03-10 Squidwardd", "cost" : 6, "owner" : 1, "stock" : 25 },
+	{ "name" : "SD-04-10 Scarecrow", "cost" : 6, "owner" : 1, "stock" : 25 },
+	{ "name" : "DR-05-14 Snap Dragon", "cost" : 12, "owner" : 1, "stock" : 25 },
+	{ "name" : "FA-01-14 Kiki's DS", "cost" : 12, "owner" : 1, "stock" : 25 },
+	{ "name" : "ZP-01-1 Hail Hydra", "cost" : 3, "owner" : 1, "stock" : 19 },
+	{ "name" : "ZP-02-1 Sailor Moon", "cost" : 3, "owner" : 1, "stock" : 19 },
+	{ "name" : "ZP-03-1 Stargate", "cost" : 3, "owner" : 1, "stock" : 14 },
+	{ "name" : "ZP-04-1 Blue Kitten", "cost" : 3, "owner" : 1, "stock" : 10 },
+	{ "name" : "ZP-05-1 Orange Kitten", "cost" : 3, "owner" : 1, "stock" : 10 },
+	{ "name" : "ZP-06-1 Grey Trek", "cost" : 3, "owner" : 1, "stock" : 15 },
+	{ "name" : "ZP-07-1 Blue Trek", "cost" : 3, "owner" : 1, "stock" : 15 },
+	{ "name" : "ZP-08-1 Yellow Trek", "cost" : 3, "owner" : 1, "stock" : 14 },
+	{ "name" : "ZP-09-1 Red Trek", "cost" : 3, "owner" : 1, "stock" : 14 },
+	{ "name" : "BT-01-1 Kitten Button", "cost" : 1, "owner" : 0, "stock" : 200 },
+	{ "name" : "BK-01 Centernia 1", "cost" : 10, "owner" : 0, "stock" : 22 },
+	{ "name" : "CM-XX-5 Cathy Sketch", "cost" : 5, "owner" : 1, "stock" : 20 }
+] }

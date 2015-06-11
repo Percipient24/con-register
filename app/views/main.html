@@ -9,9 +9,8 @@
     <p class="date">{{date|date:"MMMdd"}}'{{date|date:"yy h:mm.ssa"}}</p>
     <p class="rule">-------------------------</p>
     <ul class="cart">
-      <li class="cart-item" ng-repeat="item in cart">
+      <li class="cart-item" ng-repeat="item in cart" ng-click="removeFromCart($index)">
         {{item.name}}
-        <a class="remove-button right" ng-click="removeFromCart($index)">[-]</a>
         <span class="right">{{item.cost|number:2}}</span>
       </li>
     </ul>

@@ -10,8 +10,11 @@
 angular.module('catReceiptApp')
   .service('BundleService', [
 
-  	function () {
+    'BundleFactory',
+  	function (BundleFactory) {
     // AngularJS will instantiate a singleton by calling "new" on this function
+    
+    var that = this;
     
     this.bundles = [];
 
@@ -42,9 +45,11 @@ angular.module('catReceiptApp')
     	}
     };
 
-    if(!localStorage.getItem('BundleService_bundles')) {
+    if(!localStorage.getItem('BundleService_bundles') || JSON.parse(localStorage.getItem('BundleService_bundles')).length === 0) {
     	// first time
-    	this.flush();
+        BundleFactory.request().then(function(response){
+            BundleFactory.parse(that, response);
+        });
     } else {
     	// every other time
     	this.bundles = JSON.parse(localStorage.getItem('BundleService_bundles'));
