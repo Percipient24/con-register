@@ -1,0 +1,8 @@
+{ "bundles" : [
+	{ "name" : "Two Large Prints", "cost" : -4, "owner" : 2 },
+	{ "name" : "LP + Book", "cost" : -7, "owner" : 2 },
+	{ "name" : "SP + Book", "cost" : -4, "owner" : 2 },
+	{ "name" : "Two ZPs", "cost" : -1, "owner" : 2 },
+	{ "name" : "Two Small Prints", "cost" : -2, "owner" : 2 },
+	{ "name" : "Large Small Print", "cost" : -3, "owner" : 2 }
+] }
