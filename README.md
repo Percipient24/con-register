@@ -5,11 +5,21 @@ A live demo exists here: http://percipient24.github.io/con-register/#/
 
 This project is designed to run locally on a tablet, and track inventory and sales for items at a convention.
 
-##Quick Setup:
+##Pre-Built Setup:
 
 1. Set up your Items and Bundle Deals easily using a copy of this Google Sheet https://docs.google.com/spreadsheets/d/14rE4AOPLa1aYg75jExuS1Am5MtbWRXP70sm1Tm5juHY/edit?usp=sharing (If you're logged in to your Google Account, you can select File > Make a Copy, and go to town). The cells on the output sheet correspond to data/items.json and data/bundles.json respectively - although you'll have to do some finagling to make what you copy there into proper JSON.
 2. The fastest way to get up and running is to grab the source from the gh-pages branch. This is already built. Replace the JSON files with the info from step 1, and then visit index.html in a browser (Chrome will break because of Cross-Origin policies, but Firefox and Safari seem to work fine).
 3. If you want to tweak the receipt text, that's at the top of views/main.html (sorry, it's minified).
+
+##Local Dev Setup:
+
+This project uses node/npm/yo/grunt/bower for local development. If you have that family of applications installed, you can get going with:
+
+```
+npm install
+bower install
+grunt serve
+```
 
 ##Caveats:
 
